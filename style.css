@@ -1,0 +1,156 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* Containters */
+.container-fluid {
+  padding: 7% 10%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 900;
+  text-shadow: 3px 3px 5px rgba(100, 100, 100, 0.9);
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+/* Title Section */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 3% 0;
+}
+
+.title-text {
+  margin: 2% 0;
+}
+
+#title {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(180deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+#title .container-fluid {
+  padding: 3% 10% 7%;
+}
+
+/* Title Image */
+#profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+/* Title Icons */
+.title-icons {
+  margin: 3% 1%;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.title-icons:hover {
+  color: #fff;
+}
+
+/* About Me */
+#about-me {}
+
+.about-head {
+  padding-left: 10%;
+  margin: 0 0 50px 0;
+}
+
+.about-text {
+  padding: 0 5%;
+  margin: 0 0 50px 0;
+  border-left: 2px solid black;
+}
+
+.skills-icon{
+  color: rgba(0, 0, 0, 0.85);
+  margin: 20px;
+}
+
+
+/* Projects */
+#projects {
+  padding: 5% 0 1%;
+  background-color: #333;
+  color: #fff;
+}
+
+.card-deck {
+  padding: 0 20%;
+
+
+}
+
+.card-body {
+  color: black;
+
+}
+
+
+img {
+  /* border-radius: 50%; */
+  /* width: 150px; */
+  height: 300px;
+}
+
+/* Contact Me */
+#contacts {}
+
+.contacts-box {
+  margin-bottom: 40px;
+}
+
+.contact-icon {
+  color: rgb(34, 193, 195);
+  margin: 0 0 30px;
+}
+
+.contact-icon:hover {
+  transform: rotateY(180deg);
+  perspective: 900px;
+  transition: all .7s;
+  transform-style: preserve-3d;
+}
+
+.contacts-text1 {
+  margin: 2% 0 5%;
+}
+
+.contacts-text2 {
+  margin: 0;
+}
+
+.contact-link {
+  color: rgb(34, 193, 195);
+}
+
+.contact-link:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(34, 193, 195);
+}
+
+.foot {
+  padding: 40px;
+}
